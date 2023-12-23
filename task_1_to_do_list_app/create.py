@@ -1,5 +1,6 @@
 import argparse
 #experimenting with python passer
+# will remove comment later
 parser = argparse.ArgumentParser(description='Create your TODO list.')
 parser.add_argument('--list', type=str, dest="todo",
                     help='Enter your todo list as a string')
